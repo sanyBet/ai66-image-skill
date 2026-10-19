@@ -1,0 +1,5 @@
+interface:
+  display_name: "AI66 Image"
+  short_description: "Generate images with AI66 GPT Image models"
+  brand_color: "#F97316"
+  default_prompt: "Use $ai66-image to generate an image of "
