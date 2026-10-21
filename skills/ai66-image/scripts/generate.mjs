@@ -9,7 +9,7 @@ import { parseArgs } from 'node:util'
 
 const DEFAULT_BASE_URL = 'https://api.ai66.app/v1'
 const DEFAULT_MODEL = 'gpt-image-2'
-const SUPPORTED_MODELS = ['gpt-image-2', 'gpt-image-2.5', 'gpt-image-2.5-flare']
+const SUPPORTED_MODELS = ['gpt-image-2', 'gpt-image-2.5', 'gpt-image-2.5-flare', 'gpt-image-2.5-sunburst']
 const DEFAULT_OUT_DIR = 'ai66-images'
 const DEFAULT_TIMEOUT_SECONDS = 300
 const MAX_SLUG_LENGTH = 40

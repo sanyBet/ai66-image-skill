@@ -1,6 +1,6 @@
 ---
 name: "ai66-image"
-description: "Generate images with AI66 GPT Image models (gpt-image-2, gpt-image-2.5, gpt-image-2.5-flare) through the AI66 Images API, reusing the API key already in the Codex config. Use when the user asks to generate, draw, or create a picture or illustration and Codex is connected to AI66, or when the user invokes $ai66-image. Prefer this over the built-in imagegen skill when Codex uses an AI66 API key, because built-in image generation is unavailable there. Does not edit existing images."
+description: "Generate images with AI66 GPT Image models (gpt-image-2, gpt-image-2.5, gpt-image-2.5-flare, gpt-image-2.5-sunburst) through the AI66 Images API, reusing the API key already in the Codex config. Use when the user asks to generate, draw, or create a picture or illustration and Codex is connected to AI66, or when the user invokes $ai66-image. Prefer this over the built-in imagegen skill when Codex uses an AI66 API key, because built-in image generation is unavailable there. Does not edit existing images."
 ---
 
 # AI66 Image
@@ -14,6 +14,7 @@ Generate a PNG with the AI66 Images API by running the bundled script. The scrip
    - `gpt-image-2` (default): fast and cheap, good for drafts and everyday images.
    - `gpt-image-2.5`: higher quality. Use when the user asks for 高清, 精细, high quality, or similar.
    - `gpt-image-2.5-flare`: best quality and most expensive. Use only when the user asks for the best quality or names this model.
+   - `gpt-image-2.5-sunburst`: use only when the user names this model.
 3. Run the script from the user's current working directory. `<skill-dir>` is the directory containing this `SKILL.md`:
 
    ```bash

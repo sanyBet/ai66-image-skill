@@ -18,7 +18,7 @@
 $ai66-image 画一只在笔记本电脑上写代码的小熊猫，扁平插画风格
 ```
 
-图片默认保存在当前目录的 `ai66-images/` 中。需要更高画质时，在描述里写「高清」或指定模型 `gpt-image-2.5`、`gpt-image-2.5-flare`。
+图片默认保存在当前目录的 `ai66-images/` 中。需要更高画质时，在描述里写「高清」或指定模型 `gpt-image-2.5`、`gpt-image-2.5-flare`、`gpt-image-2.5-sunburst`。
 
 ## 前提条件
 
